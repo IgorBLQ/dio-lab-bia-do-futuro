@@ -5,17 +5,17 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-A falta de literacia financeira básica e a dificuldade de transformar o desejo de "guardar dinheiro" em um plano prático. Muitas pessoas iniciantes se sentem intimidadas pelo "economês" (termos complexos do mercado), não sabem por onde começar a organizar o orçamento mensal e têm dificuldade em calcular quanto precisam poupar para atingir uma meta específica (como criar uma reserva de emergência, fazer uma viagem ou comprar um carro).
+A falta de educação financeira básica e a barreira do "economês". Iniciantes têm dificuldade em organizar o orçamento e calcular como poupar para suas metas (como criar uma reserva de emergência), precisando de uma orientação clara e acessível.
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-O agente atua como um guia financeiro simplificado e interativo. De forma proativa, ele não apenas responde a perguntas sobre conceitos financeiros (como "O que é um CDB?" ou "Como funciona a taxa Selic?"), mas também incentiva o usuário a agir. Ele faz isso oferecendo simulações de metas: o usuário diz o que quer comprar e em quanto tempo, e o agente calcula quanto ele precisa guardar por mês, sugerindo produtos financeiros adequados ao seu perfil (com base estrita na documentação fornecida, focando em baixo risco e liquidez). O agente quebra a barreira do conhecimento usando linguagem simples, analogias do dia a dia e persistência de contexto para acompanhar o raciocínio do usuário.
+Atuando como um mentor financeiro educativo e lúdico. Ele traduz conceitos complexos (CDB, Selic, juros) usando analogias simples e realiza simulações de metas, calculando quanto o usuário precisa poupar por mês. Respeitando regras estritas de segurança, ele não recomenda investimentos, mas capacita o usuário a tomar as próprias decisões.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-Jovens adultos (18 a 30 anos), universitários, profissionais em início de carreira ou qualquer pessoa que esteja dando os primeiros passos na organização financeira. É um público conectado, que busca respostas rápidas, mas que precisa de um ambiente seguro e acolhedor para tirar dúvidas "básicas" sem se sentir julgado, valorizando uma boa experiência de usuário (UX).
+Jovens adultos (18 a 30 anos) e iniciantes na organização financeira. É um público que busca respostas rápidas e uma experiência (UX) leve, gamificada e livre de julgamentos para aprender o básico.
 
 ---
 
@@ -70,12 +70,14 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [ ] Agente só responde com base nos dados fornecidos
+- [ ] Perfil educativo e não aconselhador!
+- [ ] Quando não sabe, admite!
+- [ ] Não faz recomendações de investimento!
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+- Não faz recomendação de investimentos
+- Não acessa dados sensíveis (ex: senhas, etc)
+- Não tem o objetivo de substituir um profissional certificado
