@@ -38,5 +38,61 @@
     "rentabilidade": "Variável",
     "aporte_minimo": 100.00,
     "indicado_para": "Perfil arrojado com foco no longo prazo"
+  },
+  {
+    "nome": "Fundo Imobiliário (FII)",
+    "categoria": "fundo",
+    "risco": "medio",
+    "rentabilidade": "Dividend Yeld (DY) costuma ficar entre 6 a 12% ao ano",
+    "aporte_minimo": 100.00,
+    "indicado_para": "Perfil moderado que busca diversificação e renda recorrente mensal"
+  },
+  {
+    "nome": "Poupança",
+    "categoria": "renda_fixa",
+    "risco": "baixo",
+    "rentabilidade": "70% da Selic + TR (se Selic atual > 8,5% a.a.)",
+    "aporte_minimo": 1.00,
+    "indicado_para": "Ponto de partida comum, mas o Mestre Yodindin ensina a buscar opções que rendem mais!"
+  },
+  {
+    "nome": "Conta Digital Remunerada",
+    "categoria": "renda_fixa",
+    "risco": "baixo",
+    "rentabilidade": "100% do CDI",
+    "aporte_minimo": 1.00,
+    "indicado_para": "Dinheiro do dia a dia e transações rápidas com rendimento automático"
+  },
+  {
+    "nome": "Tesouro IPCA+",
+    "categoria": "renda_fixa",
+    "risco": "baixo",
+    "rentabilidade": "Inflação (IPCA) + Taxa Fixa",
+    "aporte_minimo": 40.00,
+    "indicado_para": "Proteger o dinheiro da inflação para metas de longo prazo"
+  },
+  {
+    "nome": "Tesouro Prefixado",
+    "categoria": "renda_fixa",
+    "risco": "baixo",
+    "rentabilidade": "Taxa Fixa (ex: 10% ao ano)",
+    "aporte_minimo": 35.00,
+    "indicado_para": "Saber exatamente quanto o dinheiro vai render até o vencimento"
+  },
+  {
+    "nome": "ETF (Fundo de Índice)",
+    "categoria": "renda_variavel",
+    "risco": "alto",
+    "rentabilidade": "Variável (Acompanha um índice, como o Ibovespa)",
+    "aporte_minimo": 50.00,
+    "indicado_para": "Começar na bolsa diversificando em várias empresas de uma vez"
+  },
+  {
+    "nome": "Previdência Privada (CDB/Fundos)",
+    "categoria": "previdencia",
+    "risco": "variavel",
+    "rentabilidade": "Depende do fundo escolhido",
+    "aporte_minimo": 100.00,
+    "indicado_para": "Aposentadoria e planejamento tributário a longuíssimo prazo"
   }
 ]
