@@ -25,8 +25,6 @@ Tesouro IPCA+ e Prefixado: Completam a trindade do Tesouro Direto. O IPCA+ é pe
 
 ETF: É a forma mais educativa e menos arriscada de explicar Renda Variável para um iniciante, pois foca em diversificação em vez de "apostar" em uma única empresa.
 
-[Sua descrição aqui]
-
 ---
 
 ## Estratégia de Integração
