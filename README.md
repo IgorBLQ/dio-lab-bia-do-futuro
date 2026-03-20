@@ -31,85 +31,6 @@ A arquitetura do Mestre Yodindin foi construída com foco em eficiência, contro
   
 ---
 
-### 1. Documentação do Agente
-
-Definindo **o que** o agente faz e **como** ele funciona:
-
-- **Caso de Uso:** Qual problema financeiro ele resolve? (ex: consultoria de investimentos, planejamento de metas, alertas de gastos)
-- **Persona e Tom de Voz:** Como o agente se comporta e se comunica?
-- **Arquitetura:** Fluxo de dados e integração com a base de conhecimento
-- **Segurança:** Como evitar alucinações e garantir respostas confiáveis?
-
-📄 **Template:** [`docs/01-documentacao-agente.md`](./docs/01-documentacao-agente.md)
-
----
-
-### 2. Base de Conhecimento
-
-**dados mockados** disponíveis na pasta [`data/`](./data/) para alimentar o agente:
-
-| Arquivo | Formato | Descrição |
-|---------|---------|-----------|
-| `transacoes.csv` | CSV | Histórico de transações do cliente |
-| `historico_atendimento.csv` | CSV | Histórico de atendimentos anteriores |
-| `perfil_investidor.json` | JSON | Perfil e preferências do cliente |
-| `produtos_financeiros.json` | JSON | Produtos e serviços disponíveis |
-
-Pode-se adaptar ou expandir esses dados conforme seu caso de uso.
-
-📄 **Template:** [`docs/02-base-conhecimento.md`](./docs/02-base-conhecimento.md)
-
----
-
-### 3. Prompts do Agente
-
-Documentados os prompts que definem o comportamento do agente:
-
-- **System Prompt:** Instruções gerais de comportamento e restrições
-- **Exemplos de Interação:** Cenários de uso com entrada e saída esperada
-- **Tratamento de Edge Cases:** Como o agente lida com situações limite
-
-📄 **Template:** [`docs/03-prompts.md`](./docs/03-prompts.md)
-
----
-
-### 4. Aplicação Funcional
-
-Desenvolva um **protótipo funcional** do agente:
-
-- Chatbot interativo 
-- Integração com LLM (via API ou modelo local)
-- Conexão com a base de conhecimento
-
-📁 **Pasta:** [`src/`](./src/)
-
----
-
-### 5. Avaliação e Métricas
-
-Descreva como está a avaliação da qualidade do agente:
-
-**Métricas Sugeridas:**
-- Precisão/assertividade das respostas
-- Taxa de respostas seguras (sem alucinações)
-- Coerência com o perfil do cliente
-
-📄 **Template:** [`docs/04-metricas.md`](./docs/04-metricas.md)
-
----
-
-### 6. Pitch
-
-Um **pitch de 3 minutos** (estilo elevador) apresentando:
-
-- Qual problema seu agente resolve?
-- Como ele funciona na prática?
-- Por que essa solução é inovadora?
-
-📄 **Template:** [`docs/05-pitch.md`](./docs/05-pitch.md)
-
----
-
 ## Estrutura do Repositório
 
 ```
@@ -131,11 +52,11 @@ Um **pitch de 3 minutos** (estilo elevador) apresentando:
 │   └── 05-pitch.md                   # Roteiro do pitch
 │
 ├── 📁 src/                           
-│   ├── app.py
+│   ├── app.py                        # Streamlit
 │   ├── README.md      
-│   ├── app.py
-│   ├── requirements.txt         
-│   └── config.py
+│   ├── agente.py                     # Instruções e personalidade do Mestre Yodindin
+│   ├── requirements.txt              # Dependências necessárias
+│   └── config.py                     # Caminhos dos dados e configuração LLM
 │             
 ├── 📁 assets/                        
 │   └── ...
@@ -145,3 +66,40 @@ Um **pitch de 3 minutos** (estilo elevador) apresentando:
 ```
 
 ---
+
+### Documentação do Agente
+
+📄 **Disponível em:** [`docs/01-documentacao-agente.md`](./docs/01-documentacao-agente.md)
+
+---
+
+### Base de Conhecimento
+
+**dados mockados** disponíveis na pasta [`data/`](./data/) para alimentar o agente:
+
+📄 **Disponível em:** [`docs/02-base-conhecimento.md`](./docs/02-base-conhecimento.md)
+
+---
+
+### Prompts do Agente
+
+📄 **Disponível em:** [`docs/03-prompts.md`](./docs/03-prompts.md)
+
+---
+
+### Aplicação Funcional
+
+📁 **Disponível em:** [`src/`](./src/)
+
+---
+
+### Avaliação e Métricas do Mestre Yodindin
+
+📄 **Disponível em:** [`docs/04-metricas.md`](./docs/04-metricas.md)
+
+---
+
+### Pitch
+
+📄 **Disponível em:** [`docs/05-pitch.md`](./docs/05-pitch.md)
+
