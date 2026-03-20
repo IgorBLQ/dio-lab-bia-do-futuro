@@ -4,10 +4,9 @@
 
 | Tempo | Seção | O que falar |
 |-------|-------|-------------|
-| 0:00 - 0:30 | Problema | O "economês" |
-| 0:30 - 1:30 | Solução | Como o Mestre Yodindin resolve |
-| 1:30 - 2:30 | Demo | Mostrar funcionamento |
-| 2:30 - 3:00 | Diferencial | Por que é inovador e seguro |
+| 0:00 - 1:39 | Problema | Problema_solução_diferencial|
+| 0:00 - 1:13 | Demo | Demonstração|
+| 0:00 - 2:52 | TOTAL | Demonstração e Apresentação|
 
 ---
  
@@ -42,11 +41,11 @@ Para mostrar segurança (Edge Case): "Devo investir tudo em ações?" (Recusando
 
 ## Checklist do Pitch
 
-- [ ] Duração máxima de 3 minutos
-- [ ] Problema claramente definido
-- [ ] Solução demonstrada na prática
-- [ ] Diferencial explicado
-- [ ] Áudio e vídeo com boa qualidade
+- [X] Duração máxima de 3 minutos
+- [X] Problema claramente definido
+- [X] Solução demonstrada na prática
+- [X] Diferencial explicado
+- [X] Áudio e vídeo com boa qualidade
 
 ---
 
@@ -54,4 +53,4 @@ Para mostrar segurança (Edge Case): "Devo investir tudo em ações?" (Recusando
 
 > Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
 
-[Link do vídeo]
+[[Link do vídeo]](https://drive.google.com/drive/folders/1QuIclNDNIiV-lDFJWF8_KBUTAxhqczb-)
