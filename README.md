@@ -128,13 +128,17 @@ Todas as ferramentas abaixo possuem versões gratuitas:
 │   ├── 04-metricas.md                # Avaliação e métricas
 │   └── 05-pitch.md                   # Roteiro do pitch
 │
-├── 📁 src/                           # Código da aplicação
-│   └── app.py                        # (exemplo de estrutura)
-│
-├── 📁 assets/                        # Imagens e diagramas
+├── 📁 src/                           
+│   ├── app.py
+│   ├── README.md      
+│   ├── app.py
+│   ├── requirements.txt         
+│   └── config.py
+│             
+├── 📁 assets/                        
 │   └── ...
 │
-└── 📁 examples/                      # Referências e exemplos
+└── 📁 examples/                     
     └── README.md
 ```
 
